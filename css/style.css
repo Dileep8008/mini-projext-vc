@@ -1,0 +1,50 @@
+body{
+    font-size: 16px; 
+    background-color: lightgrey;
+}
+.content{
+    max-width: 500px;
+    margin:0 auto;
+}
+#header-nav{
+    min-height: 5rem;
+    background-color: aqua; 
+    border-radius:0;
+    border: 0px; 
+    
+} 
+.navbar-header{
+    min-width: 100%;
+}
+.navbar-brand{
+    padding-top: 5px;
+}
+.container{
+    padding-top: 5px;
+    padding-left: 25px;
+    float: left;
+    min-width: 100%;
+}
+.temp{
+    background-color: aliceblue; 
+    margin: 0 auto; 
+    max-width: 400px; 
+    border-style:outset; 
+    border-radius: 20px;
+    min-height: 600px;
+    padding: 5px 5px 5px 5px;
+}
+.temp *{
+    margin: 5px 5px 15px 5px;
+}
+#logo-img{
+    background: url('../images/logo_2-removebg-preview.png');
+    background-size: cover;
+    background-position: center; 
+    width: 5rem;
+    height: 5rem;
+    margin-right: 10px;
+}
+.nav-link{
+    color: black;
+}
