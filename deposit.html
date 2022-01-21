@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/deposit_withdraw.css">
+    <title>Deposit</title>
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="deposit.html" class="pull-left">
+                            <div id="logo-img" alt="logo image" text="Home"></div>                        
+                        </a>
+                        <div class="navbar-brand">
+                            <a href="deposit.html">
+                                <h4 style="color: black;">Smart Transaction</h4>
+                            </a>
+                        </div>
+                        <ul class="nav nav-pills justify-content-end" style="float: right; color: black;">
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+
+    <section class="temp">
+       <form> 
+           <h2 style="text-align: center;"><b>Deposit</b></h2>
+            <label for="amount">Enter amount :</label>
+            <input type="text" id="amount" name="amount"><br>
+
+            <label for="pin">Enter pin :</label>
+            <input type="tel" id="pin" name="pin" maxlength="4">
+            
+            <label for="acctype">Account type :</label>
+            <input type="radio" name="acctype" value="acctype"> <b>Savings</b> <br>
+
+            <div><button type="submit" id="proceed">Proceed</button></div>
+        
+       </form>
+    </section>
+
+
+
+    
+          
+</body>
+</html>

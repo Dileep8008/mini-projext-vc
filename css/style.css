@@ -21,7 +21,13 @@ body{
 }
 .container{
     padding-top: 5px;
-    padding-left: 25px;
+    padding-left: 2px;
+    float: left;
+    min-width: 100%;
+}
+.container1{
+    padding-top: 75px;
+    padding-left: 2px;
     float: left;
     min-width: 100%;
 }
@@ -47,4 +53,59 @@ body{
 }
 .nav-link{
     color: black;
+}
+
+
+.temp .withdraw{
+    border-radius: 25px;
+    background-color: cyan;
+    color:black;
+    text-align :center;
+    font-family:arial, helvetica, sans-serif;
+    padding: 5px;
+    font-weight:bold;
+    width:200px;
+    height:50px;
+    font-size: 20px;
+    margin-left: 75px;
+}
+
+.temp #signup{
+    border-radius: 25px;
+    background-color: cyan;
+    color:black;
+    text-align :center;
+    font-family:arial, helvetica, sans-serif;
+    padding: 5px;
+    font-weight:bold;
+    width:100px;
+    height:50px;
+    font-size: 20px;
+    margin-left: 1px;
+}
+.temp #reset{
+    border-radius: 25px;
+    background-color: cyan;
+    color:black;
+    text-align :center;
+    font-family:arial, helvetica, sans-serif;
+    padding: 5px;
+    font-weight:bold;
+    width:100px;
+    height:50px;
+    font-size: 20px;
+    margin-left: 130px;
+}
+.temp #proceed{
+    border-radius: 25px;
+    background-color: cyan;
+    color:black;
+    text-align :center;
+    font-family:arial, helvetica, sans-serif;
+    padding: 5px;
+    font-weight:bold;
+    width:100px;
+    height:50px;
+    font-size: 20px;
+    margin-left: 70%;
 }

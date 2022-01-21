@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Create_Account</title>
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="create_account.html" class="pull-left">
+                            <div id="logo-img" alt="logo image" text="Home"></div>                        
+                        </a>
+                        <div class="navbar-brand">
+                            <a href="create_account.html">
+                                <h4 style="color: black;">Smart Transaction</h4>
+                            </a>
+                        </div>
+                        <ul class="nav nav-pills justify-content-end" style="float: right; color: black;">
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+
+    <section class="temp">
+       <form> 
+           <h2 style="text-align: center;"><b>Sign Up</b></h2>
+        <label for="fname">First name :</label>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Last name :</label>
+        <input type="text" id="lname" name="lname">
+        
+        <label for="lname">Gender :</label>
+        <input type="radio" name="gender" value="male"> <b>Male</b> 
+        <input type="radio" name="gender" value="female"> <b>Female</b> <br>
+       
+        <label for="phnumber">Phone number :</label>
+        <input type="tel" id="phnumber" name="phnumber" maxlength="10" pattern="[1-9]{1}[0-9]{9}" required><br>
+       
+        <label for="dob">DOB :</label>
+        <input type="date" id="dob" name="dob">
+
+        <label for="aadhaarno">Aadhaar number :</label> 
+        <input type="tel" id="aadhaarno" name="aadhaarno" maxlength="12" required><br>
+        
+        <label for="panno">PAN number :</label>
+        <input type="tel" id="panno" name="panno" maxlength="10" required><br>
+        
+        <label for="address">Address :</label><br>
+        <textarea id="address" name="address" rows="4" cols="30"></textarea><br>
+
+        <label for="aadhaar">Aadhaar :</label>
+        <input type="file" id="aadhaar" name="aadhaar" required >
+        
+        <label for="aadhaar">PAN CARD :</label>
+        <input type="file" id="aadhaar" name="aadhaar" required >
+        
+        <label for="photo">Photo :</label>
+        <input type="file" id="photo" name="photo" required >
+
+        <button type="reset" id="reset">Reset</button>
+        <button type="submit" id="signup">SignUp</button>
+        
+       </form>
+    </section>
+
+
+
+    
+          
+</body>
+</html>
